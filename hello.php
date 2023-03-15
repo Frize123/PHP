@@ -44,4 +44,3 @@ foreach($comments as $i)
             $i->showComment();
         }
 }
-
