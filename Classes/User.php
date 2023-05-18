@@ -8,8 +8,6 @@ use Symfony\Component\Validator\Constraints\Positive;
 use Symfony\Component\Validator\Constraints\Type;
 use Symfony\Component\Validator\Constraints\Email;
 
-
-
 class User{
     private $id;
     private string $name;
@@ -29,8 +27,6 @@ class User{
     {
         return $this->CreationTime;
     }
-
-
 
     public function showProfile() {
            echo "<dl>";
@@ -108,7 +104,4 @@ class User{
         }
         return $id;
     }
-
-
-
 }
